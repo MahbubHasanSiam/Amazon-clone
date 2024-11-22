@@ -1,0 +1,169 @@
+* {     /* to color everything of a page use (*)*/
+    color:rgb(45, 128, 85);
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1 {
+    color:red; 
+}
+#headingone {   /* to color spacific element of multiple tags use (id="abc")*/
+    color:brown;
+}
+
+#heading2 {
+    color:darkcyan;
+}
+
+#headingthree {  /* if "id" is used then (#) */
+                /* to color different element of different
+                tags at once use (class="abc") */
+    color:darkgoldenrod;
+}
+
+.larelappa {    /* if "class" is used then (.) */
+    color:gold;
+}
+button {                                  /* (Ctrl + /) = (coment out sign)  */
+    color:blue;
+    background-color: blueviolet;
+}
+
+body {
+    background-color:rgb(21, 25, 43);
+}
+
+#box {      /*i can use "dev" or "id" here as i love */
+    color:darkviolet;
+}
+
+.heading {
+    color: cornsilk;          
+} 
+
+                                    /* in CSS commend will get priority 
+                                    of below one's*/
+
+#h1 {
+    color: darkorange;
+}
+
+#b1 {
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+
+#p1 {
+    text-align: center;
+    color: chartreuse;
+}
+
+#ai {
+    text-decoration: none; /* it means having no underline under the text */
+    color: antiquewhite;
+}
+
+#p2 {
+    font-weight: 100;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 10px; /* 96px = 1 inch*/
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+#p3 {
+    font-weight: 250;
+    font-family:'Arial Narrow';
+    font-size: 12px;
+    line-height: 10px;
+    text-transform:uppercase;
+    margin-bottom: 20px;
+}
+
+#p4 {
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+#p5 {
+    font-weight: 600; /*900 is max; 100 is min*/
+    font-family: fantasy;
+    font-size: 15px;
+    line-height:5px;
+}
+
+#H-1 {
+    width: 200px;
+    height: 50px;
+    background-color: bisque;
+    text-align: center;
+}
+
+#boxe {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+   /* border-style: dotted;
+    border-color: rgb(58, 1, 12);
+    border-width: 3px; */
+    border: 3px dotted rgb(58, 1, 12); /* format [border:px style color ]*/
+}
+#b2 {
+    color:crimson;
+    background-color: burlywood;
+}
+
+#do {
+    background-color: rgb(255, 255, 255);
+    margin:20px;
+}
+
+#d1 {
+    color: aliceblue;
+    background-color: darkcyan;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px; /* for rounder border use (px)*/
+    padding: 25px; /* for padding all side at a time [shortcut]*/
+    margin: 25px;
+    display: inline-block;
+
+}
+
+#d2 {
+    color: aliceblue;
+    background-color: darkcyan;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 25px; /* padding S.C. in order to TRBL*/
+                                /* we can also do padding spesificaly
+                                ex. (padding-left: 10px ;) */
+    margin: 25px;
+    display: inline-block;
+}
+
+#d3 {
+    color: aliceblue;
+    background-color: rgba(16, 31, 102, 0.5); /*by rgba er can set the opicity of the color*/
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 25px; /* for circle use (x%) 
+                        note: only if the height and width is 1:1 ratio*/ 
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+

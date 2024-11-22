@@ -1,0 +1,53 @@
+#loadingbar {
+    border: 15px solid #f0d7d7 ;
+    border-top: 15px solid #780000;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: fixed;
+    top: 245px;
+    left: 35% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: loadingbar;
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+   
+
+}
+
+#insidebar {
+    border: 7px solid #edc6c6 ;
+    border-bottom: 7px solid #d62828;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+    animation-name: insidebar;
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+    /* animation-timing-function:ease-in-out; */
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes loadingbar {
+    from {
+        transform: rotate(0deg) ;
+    }
+    to {
+        transform: rotate(360deg) ;
+    }
+}
+
+@keyframes insidebar {
+    from {
+        transform: rotate(0deg) ;
+    }
+    to {
+        transform: rotate(360deg) ;
+    }
+}

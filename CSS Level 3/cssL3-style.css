@@ -1,0 +1,53 @@
+#box1 {
+    height: 600px;
+    width: 600px;
+    background-color:coral;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#box2 {
+    height: 50%;
+    width: 50%;
+    background-color:chocolate;
+    margin: 25%;
+    text-align: center;
+}
+
+#box3 {
+    height: 50%;
+    width: 50%;
+    background-color:brown;
+    margin: 25%;
+    text-align: center;
+}
+
+
+#emdiv1 {
+    background-color: chocolate;
+    font-size: 100px;
+    text-align: center;
+}
+
+#emdiv2 {
+    background-color: brown;
+    font-size: 2em;
+}
+
+
+#nost {
+    font-size: 3rem; /* fon size 3 times bigger than its mother tag's primary element
+                     *primary element= an element that is modified with CSS */
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 
+                 'Lucida Sans Unicode', 
+                 'Lucida Grande', 
+                 'Lucida Sans';
+    padding: 0px;
+    margin: 0px;
+    background-color: darkorange;
+    height: 6vh; /* 6vh = element's heignt is 6% of the using browser */
+    /* width: 21vw; */
+
+}

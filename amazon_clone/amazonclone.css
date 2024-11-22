@@ -1,0 +1,991 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border-style: border-box;
+    font-family: 'Segoe UI';
+    /* color: white; */
+}
+
+body {
+    background-color: #e6e6e6;
+}
+/* main {
+    background-color: #E3E6E6;
+} */
+
+.navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: #131921 ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 140px;
+    /* position: relative; */
+    /* margin-left: 8px ;
+    margin-top: 4px;   because of 'absolute' flex wasn't working */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15px;
+    margin-top: 5px; */
+}
+
+.logo {
+    height: 29.99px;
+    margin-top: 5px;
+
+}
+
+.border {
+    /* border: 1.75px solid transparent; */
+    border-radius: 7px;
+}
+
+.border:hover {
+    border: 1.75px solid #e6e6e6;
+
+}
+
+
+/* location tab */
+
+.nav-location {
+    /* margin-left: 5px; */
+    margin-top: 4px; 
+    height: 50px;
+}
+
+.loc-top {                /* loc= location */
+    color: #e6e6e6 ;
+    font-size: .8rem;
+    /* text-align: center; */
+    margin-left: 15px;
+}
+
+.loc-bottom {
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.icon-loc {
+    /* display: inline-block; */
+
+    display: flex;
+    align-items: center;
+}
+
+/* search bar .......................................*/
+
+.search-bar {
+    height: 40px;
+    width: 1210px;
+    display: flex;
+    /* margin-left: 15px; */
+    border-radius: 7px ;
+}
+
+.search-bar:hover {
+    border: 3px solid #FF9D2F ;
+}
+
+.search-option {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.664);
+    background-color: #e6e6e6;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: none;
+}
+
+ .search-option:hover {
+    background-color: #adabab;
+}
+
+.search-box {
+    height: 40px;
+    width: 1150px;
+    font-size: large;
+    border: none;
+    
+}
+
+.search-icon {
+    height: 40px;
+    width: 40px;
+    background-color: #FF9D2F;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #131921;
+
+}
+
+.search-icon:hover {
+    background-color: #b87221;
+}
+
+.sign-in {
+    /* border: 1.75px solid transparent; */
+    border-radius: 7px;
+    height: 50px;
+    width: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.sign-in:hover {
+    border: 1.75px solid #e6e6e6;
+
+}
+
+.hello {
+    font-family: 'Segoe UI';
+    /* margin: 0px;
+    margin-right: 50px; */
+    font-size: .8rem;
+}
+.account {
+    background-color: #131921;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+
+/* return box ...........................................*/
+
+
+.return-box {
+    height: 50px;
+    width: 100px;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.return-box:hover {
+    border: 1.75px solid #e6e6e6;
+}
+
+.return {
+    font-size: .8rem;
+    font-family: 'Segoe UI';
+    /* margin: 0px;
+    margin-right: 25px; */
+
+}
+.orders {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+/* cart box .................................... */
+
+.cart-box {
+    height: 50px;
+    width: 70px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* margin-right: 20px; */
+}
+.cart-box:hover {
+    border: 1.75px solid #e6e6e6;
+}
+
+.cart-icon {
+    font-size: 30px;
+}
+
+.cart{
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+/* language bar................................ */
+
+.language {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    border-radius: 7px;
+}
+
+.language:hover {
+    border: 1.75px solid #e6e6e6;
+
+}
+
+.flag {
+    height: 16px;
+}
+
+.lang-opt {
+    background-color: #131921;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    border: none;
+}
+
+.space {
+    width: 10px;
+}
+
+/* bottom nav .............................. */
+
+.bottom-nav {
+    background-color: #232F3E;
+    color: white;
+    font-family: 'Segoe UI';
+    height: 39px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-bar-option {
+    display: flex;
+
+}
+
+.bar-options {
+    height: 36px;
+    font-size: 14px;
+    font-weight: 620;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.menu {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.menu-icon {
+    font-size: 18px;
+}
+
+.all {
+    font-size: 15px;
+    font-family:'Lucida Sans';
+    font-weight: 800;
+    margin-left: 8px;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.bottom-bar-option-border {
+    border-radius: 0px;
+    height: 36px;
+}
+
+.bottom-bar-option-border:hover {
+    border: 1.75px solid #e6e6e6;
+}
+
+
+/*hero section */
+
+.hero-section {
+    display: flex;
+    justify-content: center; 
+}
+
+.hero-img {
+    background-image: url("hero.jpg");
+    height: 600px;
+    width: 1500px;
+    background-size: cover;
+}
+
+
+/* shoping box */
+
+.shoping-center {
+    width: 100vw;
+    height: 3480px;
+    position:absolute;
+    top: 350px;
+    display: flex;
+    flex-direction: column; /* during 'column' 'align item will work like ' */
+    /* justify-content:center; */
+    align-items: center;
+    /* background-color: #adabab; */
+   
+    
+}
+.shopingrow1 {
+    width: 1500px;
+    height: px;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    /* background-color: antiquewhite; */
+    margin-left: -15px;
+}
+
+.shopingrow1-boxes {
+    height: 420px;
+    width: 350px;
+    color: #131921;
+    background-color: rgb(255, 255, 255);
+}
+
+/* ..............................box 1 start...............................*/
+
+.r1-b1 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r1-b1-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r1-b1-heading {
+    position: relative;
+    right: 40px;
+}
+/* ....................................................... */
+
+.r1-b2 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r1-b2-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r1-b2-heading {
+    position: relative;
+    right: 30px;
+}
+/* .................................. */
+
+.r1-b3 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r1-b3-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r1-b3-heading {
+    position: relative;
+    right: 80px;
+}
+/* .......................................... */
+
+.r1-b4 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r1-b4-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r1-b4-heading {
+    position: relative;
+    right: 50px;
+}
+
+/* .......................................... */
+.see-more {
+    position: relative;
+    right: 115px;
+    color: #197F91;
+} 
+
+/* ..............................box 1 end...............................*/
+
+.shopingrow2 {
+    width: 1500px;
+    height: px;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    /* background-color: antiquewhite; */
+    margin-left: -15px;
+}
+
+.shopingrow2-boxes {
+    height: 420px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* .......................................... */
+
+.r2-b1 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r2-b1-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r2-b1-heading {
+    position: relative;
+    right: 25px;
+}
+
+/* .......................................... */
+
+.r2-b2 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r2-b2-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r2-b2-heading {
+    position: relative;
+    right: 55px;
+}
+
+/* .......................................... */
+
+.r2-b3 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r2-b3-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r2-b3-heading {
+    position: relative;
+    right: 47px;
+}
+
+/* .......................................... */
+
+.r2-b4 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r2-b4-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r2-b4-heading {
+    position: relative;
+    right: 125px;
+}
+
+/* .......................................... */
+
+/* ......................long row start............................ */
+
+
+.long-shoping-bar-1 {
+    height: 280px;
+    width: 1460px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lr-1-heading {
+    position: relative;
+    left: -625px;
+    top: -15px;
+}
+
+.lr1-img-bar {
+    width: 1440px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lr-left-arrow {
+    width: 35px;
+
+    text-align: center;
+    font-size: 50px;
+}
+
+.lr1-img{
+    height: 200px;
+    width: 322px;
+    display: flex;
+    /* background-color: #131921; */
+    justify-content: center;
+    background-image: cover;
+}
+
+.lr-right-arrow {
+    width: 35px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ............................bar2..................... */
+
+
+.long-shoping-bar-2 {
+    height: 280px;
+    width: 1460px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lr-2-heading {
+    position: relative;
+    left: -615px;
+    top: -15px;
+}
+
+.lr2-img-bar {
+    width: 1440px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lr2-img{
+    height: 200px;
+    width: 254px;
+    display: flex;
+    /* background-color: #131921; */
+    justify-content: center;
+    background-image: cover;
+}
+
+/* ......................long row end............................ */
+
+
+/* ....................box3 start............................. */
+.shopingrow3 {
+    width: 1500px;
+    height: px;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    /* background-color: antiquewhite; */
+    margin-left: -15px;
+}
+
+.shopingrow3-boxes {
+    height: 420px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+}
+/* ...................................... */
+.r3-b1 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r3-b1-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r3-b1-heading {
+    position: relative;
+    right: 70px;
+}
+
+/* ...................................... */
+.r3-b2 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r3-b2-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r3-b2-heading {
+    position: relative;
+    right: 10px;
+}
+
+/* ...................................... */
+.r3-b3 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r3-b3-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r3-b3-heading {
+    position: relative;
+    right: 30px;
+}
+
+/* ...................................... */
+.r3-b4 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r3-b4-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r3-b4-heading {
+    position: relative;
+    right: 30px;
+}
+
+/* .......................box3 end.................................... */
+
+/* .......................box4 start.................................. */
+
+.shopingrow4 {
+    width: 1500px;
+    height: px;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    /* background-color: antiquewhite; */
+    margin-left: -15px;
+}
+
+.shopingrow4-boxes {
+    height: 420px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* .......................................... */
+
+.r4-b1 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r4-b1-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r4-b1-heading {
+    position: relative;
+    right: 75px;
+}
+
+/* .......................................... */
+
+.r4-b2 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r4-b2-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r4-b2-heading {
+    position: relative;
+    right: 90px;
+}
+
+/* .......................................... */
+
+.r4-b3 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r4-b3-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r4-b3-heading {
+    position: relative;
+    right: 70px;
+}
+
+/* .......................................... */
+
+.r4-b4 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.r4-b4-img {
+    height: 300px;
+    background-image: cover;
+}
+
+.r4-b4-heading {
+    position: relative;
+    right: 70px;
+}
+
+/* ............................box4 end................................. */
+
+.long-shoping-bar-3 {
+    height: 280px;
+    width: 1460px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lr-3-heading {
+    position: relative;
+    left: -590px;
+    top: -15px;
+}
+
+.lr3-img-bar {
+    width: 1440px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lr3-img{
+    height: 200px;
+    width: 654px;
+    display: flex;
+    /* background-color: #131921; */
+    justify-content: center;
+    background-image: cover;
+}
+
+
+/* footer bar ................................................... */
+
+
+.footer-bar {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-to-top {
+    height: 50px;
+    width: 100vw;
+    color: white;
+    font-weight: bold;
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    background-color: #232F3E;
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .links {
+    display: flex;
+} */
+.footer-setting {
+    border-top: .2px solid #999b9b;
+    height: 100px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-logo{
+    margin-top: 22px;
+}
+
+
+.footer-language-change {
+    height: 25px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: -20px;
+    margin-left: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+#english {
+    color: white;
+    background-color: #232F3E;
+    border: none;
+    font-size: 14px;
+    /* margin-top: -4px;*/
+    margin-left: 8px; 
+}
+
+
+ul {
+    list-style: none;
+}
+
+.link-box {
+    color: white;
+    height: 200px;
+}
+
+.get-to-know {
+    margin-left: 270px;
+}
+
+.let-us-help-you {
+    margin-right: 270px;
+}
+
+.footer-logo {
+    height: 35px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100vw;
+    color: white;
+    background-color: #131921;
+    font-size: 14px;
+    font-weight: 700;
+}

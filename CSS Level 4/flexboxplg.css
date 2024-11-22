@@ -1,0 +1,106 @@
+h1 {
+    font-family: 'Segoe UI';
+    color: #1d3557;
+    text-align: center;
+}
+
+#boxes {
+    background-color: #d4a373;
+    height: 300px;
+    width: 700px;   /*def-600px*/
+    border: 2px solid #000000;
+    border-radius: 10px;
+    position: fixed;
+    left: 650px;
+
+    display: flex;
+    flex-direction: row; /*also: row-reverse, column and column-reverse */
+    justify-content:space-around; /*also: flex-end, space*/ 
+    /* flex-wrap:wrap; */       /*com-out to use 'flex-shrink'*/
+    /*if 'align-content is off the it will make space between tow row'*/
+   
+    align-items: flex-start; /* 'Flex' would be very useful for navbar*/
+    /* align-content:center; */ /*if this of on then 'align-self won't work'*/
+
+
+}
+
+#box1 {
+    background-color: #264653;
+    color: #f6faff;
+    flex-shrink: 5 ; /*num up shrink more*/
+    /* margin-left: 12px; */
+    /* align-self: flex-start; */     /*com-out to use 'flex-shrink' or grow*/
+                                    /*align-self hase more priority then align-item*/
+
+}
+
+#box2 {
+    background-color: #2a9d8f;
+    color: #f6faff;
+}
+
+#box3 {
+    background-color: #e9c46a;
+    color: #f6faff;
+}
+
+#box4 {
+    background-color: #f4a261;
+    color: #f6faff;
+}
+
+#box5 {
+
+    background-color: #e76f51;
+    color: #f6faff;
+    /* margin-right: 10px; */
+}
+
+.container {
+    margin-top: 22px;
+    border-radius: 10px;
+    border: 2px solid black ;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+
+    /* position: relative; */
+    /* top: 15px; */
+    /* display: inline-block; */
+    /* margin-left:10px ; */
+} 
+
+#media_space_bar {
+    background-color: #d4a373;
+}
+
+/*media management*/
+
+#media_response {
+    background-color: #58924f;
+    width: 100px ;
+    height: 100px;
+}
+
+@media (width : 600px) {
+    #media_response {
+        background-color: #264653;
+    }
+}
+
+
+@media (min-width : 200px) and (max-width:300px) {
+    #media_response {
+        background-color: #2a9d8f;
+    }
+}
+
+
+@media (min-width : 350px) and (max-width:400px) {
+    #media_response {
+        background-color:#f4a261;
+    }
+}

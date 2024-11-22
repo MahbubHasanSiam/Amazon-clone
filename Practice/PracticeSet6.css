@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family:'Segoe UI';
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color:#283618;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-evenly;  
+
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+.outer {
+    background-color: #283618;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+
+    display: flex;
+    justify-content: center; /* to set the content center of the 'row'= 'main axis'*/
+    align-items: center; /*to set the item center of the 'cross axis' *//*or place-items*/
+}
+
+#inner {
+    background-color:#ccd5ae ;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+h5 {
+    font-family: 'Segoe UI';
+    font-weight:bolder;
+    margin: 0px;
+}

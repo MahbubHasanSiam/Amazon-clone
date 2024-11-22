@@ -1,0 +1,30 @@
+body {
+    background-color: #132a13;
+}
+.box {
+    height: 30px;
+    width: 30px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    background-color: #606c38;
+    margin: 0.5px;
+    padding: 0px;
+}
+
+.box:hover {
+    background-color: #ecf39e;
+}
+
+#magicbar {
+    height: 304px;
+    width: 1885px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #333d29;
+    position: absolute;
+    top: 300px;
+    right: 12px;
+    display: flex;
+    flex-wrap: wrap;
+
+} 

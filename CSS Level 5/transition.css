@@ -1,0 +1,120 @@
+#box1 {
+    height: 70px;
+    width: 70px;
+    background-color:#660708 ;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Segoe UI';
+    font-weight: bold;
+    position:absolute;
+    top: 100px;
+    left: 100px;
+
+    transition-property: all;   /*these all define who should do*/
+    transition-duration: 90ms;
+    /* transition-timing-function: ease-in; */
+    /* transition-delay: 1s; */
+    /* transition: all 2ms ease-in 1s; */
+    /* rotate: z 45deg; */
+
+}
+
+#box1:hover {
+    background-color: #003049;      /*these all define what should do*/
+    color: #f77f00;
+    height: 70px;
+    width: 70px;
+    /*transform: rotate(45deg);*/ /*scale, and so on*/
+    /* transform: translate(100px); */ /*for this 30th line is not working */
+    transform: skew(20deg); /*for this 30th line is not working */
+
+}
+
+#box1:active {
+    background-color: #386641;
+}
+
+p{
+    transition-duration: 90ms;
+    margin: 0px;
+    padding: 0px;
+
+}
+p:hover {
+    /* transform: rotate(-45deg); */
+    transition-property: all;
+}
+
+
+/* Animation */
+
+
+#box2 {
+    height: 70px;
+    width: 70px;
+    background-color:#6d6875;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    margin: 0px;
+    padding: 0px;
+    animation-name: bgcolor;
+    animation-duration: 1s;
+    animation-delay: 0s; /*for blink animation*/
+    animation-iteration-count: infinite; /*for continius animation | (1,2,3) times can bea added*/
+    /* animation-direction: alternate; */ 
+
+    /* animation: bgcolor 1s 0s infinite alternate ; */ /*we can use this as shortcut*/
+}
+
+#text {
+    color: #ffcdb2;
+    font-size: 20px;
+    font-family:'Segoe UI';
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 2px;
+    padding: 0px;
+    animation-name: bgcolor;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes bgcolor {
+    from {background-color: #6d6875 ;}
+    to { background-color: #023047; }
+
+    from {color:#ffcdb2;}
+    to {color: #ff9f1c;}
+
+    /* from {left: 400px;} 
+    to {left: 500px;} */    /*to activate this com.out blink one*/
+
+
+    /* 0% {
+        background-color: #003049;
+    }
+    50% {
+        background-color: #023047;
+    }
+    100% {
+        background-color: #6d6875;
+    }  */      /* ....................................... for multiple stage*/
+}
+
+ 
